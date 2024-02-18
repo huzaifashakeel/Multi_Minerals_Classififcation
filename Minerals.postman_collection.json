@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "fd5dded2-7fad-43e9-a0bd-7acc9712a029",
+		"name": "Minerals",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "upload mineral",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/Users/arslanbutt/Work/Freelancing/Huzaifa/Dataset/1/mineral 1.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://minerals.up.railway.app/api/minerals/identify/",
+					"protocol": "https",
+					"host": [
+						"minerals",
+						"up",
+						"railway",
+						"app"
+					],
+					"path": [
+						"api",
+						"minerals",
+						"identify",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
